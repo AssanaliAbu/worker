@@ -7,6 +7,7 @@ import org.camunda.bpm.client.task.ExternalTaskService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.openfeign.EnableFeignClients;
 import org.springframework.stereotype.Component;
+//import com.example.commonlibs.CamundaFeign;
 //import com.example.library.Feign;
 
 import java.util.HashMap;
@@ -17,8 +18,8 @@ import java.util.Map;
 @Component
 @ExternalTaskSubscription(topicName = "test-topic-name1")
 public class task1 implements ExternalTaskHandler {
-    @Autowired
-//    Feign feign;
+//    @Autowired
+//    CamundaFeign feign;
     public static String position;
     public static String name;
     @Autowired
