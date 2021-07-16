@@ -19,8 +19,6 @@ import java.util.Map;
 public class task5 implements ExternalTaskHandler {
     @Autowired
     FeignL feignLong;
-    //      @Autowired
-//      Feign feign;
     @Override
     public void execute(ExternalTask task, ExternalTaskService service){
         List<LinkedHashMap> res = feignLong.findbyname(task1.name);

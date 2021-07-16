@@ -18,8 +18,6 @@ import java.util.Map;
 public class task6 implements ExternalTaskHandler {
     @Autowired
     FeignL feignLong;
-//    @Autowired
-//      Feign feign;
     @Override
     public void execute(ExternalTask task, ExternalTaskService service){
 //        feignLong.hoursincrease(task1.name, 10000);

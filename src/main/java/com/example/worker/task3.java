@@ -19,8 +19,7 @@ public class task3 implements ExternalTaskHandler {
     public static int salary;
     @Autowired
     FeignL feignLong;
-//    @Autowired
-//    Feign feign;
+
     @Override
     public void execute(ExternalTask task, ExternalTaskService service){
 
